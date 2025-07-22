@@ -1,0 +1,2 @@
+2025-03-03T01:13:09.108+05:30  INFO 24636 --- [recharge-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T01:13:09.407+05:30  INFO 24636 --- [recharge-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
