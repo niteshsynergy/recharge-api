@@ -31,6 +31,7 @@ public class IndividualCustomerPaymentServiceImpl implements IndividualCustomerP
     private static final int RETRY_DELAY = 2000; // 2 seconds
 
     @Override
+    @Transactional
     public IndividualCustomerPayments savePaymentTransaction(IndividualCustomerPayments payment) {
         return mongoTemplate.save(payment);
     }
